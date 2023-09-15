@@ -116,7 +116,7 @@ fun generateImageLoader(): ImageLoader {
     }
 }
 
-// about currentOperatingSystem, see [app]([https://link-url-here.org](https://github.com/qdsfdhvh/compose-imageloader/blob/master/app/desktop/src/jvmMain/kotlin/com/seiko/imageloader/demo/Main.kt))
+##### about currentOperatingSystem, see [app]([https://link-url-here.org](https://github.com/qdsfdhvh/compose-imageloader/blob/master/app/desktop/src/jvmMain/kotlin/com/seiko/imageloader/demo/Main.kt))``
 private fun getCacheDir() = when (currentOperatingSystem) {
     OperatingSystem.Windows -> File(System.getenv("AppData"), "$ApplicationName/cache")
     OperatingSystem.Linux -> File(System.getProperty("user.home"), ".cache/$ApplicationName")
